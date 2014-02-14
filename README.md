@@ -1,22 +1,18 @@
-# sha256
+# starbound-sha256
 
-JavaScript component to compute the SHA256 of strings or bytes.
+**DO NOT USE**, unless you're hashing SHA-256 for the game
+[Starbound](http://playstarbound.com/).
+
+This package is only intended for hashing SHA-256 the way Starbound
+does it. Starbound's hashing algorithm has an error where strings of
+length 55 will use the wrong number of padding 0's when applying the
+padding at the end of the message.
 
 ## Install
 
 ### Node.js/Browserify
 
-    npm install --save sha256
-
-Note: when Node.js is detected, the Node [`Crypto`](http://nodejs.org/api/crypto.html) component is used instead of re-implementing the SHA256 hash logic.
-
-### Component
-
-    component install cryptocoinjs/sha256
-
-### Bower
-
-    bower install sha256
+    npm install --save starbound-sha256
 
 ### Script
 
@@ -60,4 +56,5 @@ Most of the code from CryptoJS https://code.google.com/p/crypto-js/
 
 (MIT License)
 
-Copyright 2013, JP Richardson  <jprichardson@gmail.com>
+Original work Copyright 2013, JP Richardson  <jprichardson@gmail.com>
+Modified work Copyright 2014, Blixt <me@blixt.org>
