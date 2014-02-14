@@ -12,7 +12,9 @@ padding at the end of the message.
 
 ### Node.js/Browserify
 
-    npm install --save starbound-sha256
+```bash
+npm install --save starbound-sha256
+```
 
 ### Script
 
@@ -56,5 +58,5 @@ Most of the code from CryptoJS https://code.google.com/p/crypto-js/
 
 (MIT License)
 
-Original work Copyright 2013, JP Richardson  <jprichardson@gmail.com>
+Original work Copyright 2013, JP Richardson <jprichardson@gmail.com>  
 Modified work Copyright 2014, Blixt <me@blixt.org>
