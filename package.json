@@ -1,9 +1,8 @@
 {
   "name": "starbound-sha256",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "DO NOT USE, unless you're hashing SHA-256 for Starbound.",
-  "keywords": [
-  ],
+  "keywords": [],
   "devDependencies": {
     "mocha": "1.*",
     "terst": "0.0.1"
